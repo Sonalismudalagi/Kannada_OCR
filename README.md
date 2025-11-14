@@ -33,28 +33,34 @@ The trained model achieves ~96% accuracy on validation data.
 ✔ Accuracy, Precision, Recall, and F1-score evaluation
 
 📁 Project Structure
+
 kannada_ocr_project/
 │
+
 ├── data/
 │   ├── raw/
 │   └── split/
 │       ├── train/
 │       └── val/
 │
+
 ├── models/
 │   ├── best_kannada_ocr.h5
 │   └── final_kannada_ocr.h5
 │
+
 ├── src/
 │   ├── folder_to_unicode.py
 │   └── predict.py
 │   └── train.py
+
 ├── web/
 │   ├── app.py
 │   └── templates/
 │       ├── index.html
 │       └── result.html
 │
+
 ├── outputs/
 │   ├── training_curve.png
 │   └── predictions/
@@ -76,21 +82,26 @@ BatchNorm → Dropout
 Dense (num_classes, Softmax)
 
 📦 Setup & Installation
+
 1️⃣ Clone Repository
+
 git clone https://github.com/your-username/kannada-ocr-project.git
+
 cd kannada-ocr-project
 
 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
-
 3️⃣ Run the Training Script
+
 python train.py
 
 4️⃣ Run the Web App
-cd web
-python app.py
 
+cd web
+
+python app.py
 
 The app runs at:
 
@@ -116,24 +127,32 @@ Visualization saved in outputs/predictions/
 Shows image + prediction.
 
 📊 Results
+
 Metric	Score
+
 Accuracy	~0.95
+
 Precision	High
+
 Recall	High
+
 F1 Score	High
 
 📌 Metrics automatically calculated using scikit-learn.
 
 🖼️ Screenshots
+
 🔹 Web Interface
 
 <img width="961" height="1021" alt="Screenshot 2025-11-12 103719" src="https://github.com/user-attachments/assets/9b697d97-7ea5-4ef4-a5c3-a3bc13a51c70" />
 
 🔹 Prediction Result
+
 <img width="961" height="1021" alt="Screenshot 2025-11-12 103928" src="https://github.com/user-attachments/assets/78772882-4d67-4272-ae2e-e7442c9b976d" />
 
 
 🧩 Technologies Used
+
 Languages
 
 Python
@@ -173,4 +192,5 @@ Implement sequence modeling (BiLSTM + CTC)
 Deploy model on cloud (AWS / GCP)
 
 Convert to mobile app using TensorFlow Lite
+
 
