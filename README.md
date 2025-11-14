@@ -127,12 +127,10 @@ F1 Score	High
 🖼️ Screenshots
 🔹 Web Interface
 
-(Upload your image)
-
-![Web UI](<img width="961" height="1021" alt="Screenshot 2025-11-12 103719" src="https://github.com/user-attachments/assets/9b697d97-7ea5-4ef4-a5c3-a3bc13a51c70" />)
+<img width="961" height="1021" alt="Screenshot 2025-11-12 103719" src="https://github.com/user-attachments/assets/9b697d97-7ea5-4ef4-a5c3-a3bc13a51c70" />
 
 🔹 Prediction Result
-![Prediction](<img width="961" height="1021" alt="Screenshot 2025-11-12 103928" src="https://github.com/user-attachments/assets/78772882-4d67-4272-ae2e-e7442c9b976d" />)
+<img width="961" height="1021" alt="Screenshot 2025-11-12 103928" src="https://github.com/user-attachments/assets/78772882-4d67-4272-ae2e-e7442c9b976d" />
 
 
 🧩 Technologies Used
@@ -175,3 +173,4 @@ Implement sequence modeling (BiLSTM + CTC)
 Deploy model on cloud (AWS / GCP)
 
 Convert to mobile app using TensorFlow Lite
+
