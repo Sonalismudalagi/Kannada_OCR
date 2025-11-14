@@ -1,0 +1,20 @@
+# Model files
+models/*.h5
+models/*.keras
+
+# Saved model directory
+saved_model/
+
+# Raw and processed data
+data/
+
+# Training logs
+logs/
+
+# Temporary files
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+env/
